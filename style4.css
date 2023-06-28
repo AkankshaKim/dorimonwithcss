@@ -158,9 +158,29 @@ body {
 .left_hand {
     position: absolute;
     top: 64%;
-    left: 50%;
+    left: 49%;
     height: 40px;
     width: 120px;
-    transform: rotate(-40deg);
+    transform: rotate(40deg);
     background-color: rgb(68, 68, 179);
+}
+.hand_left {
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    border-radius: 100%;
+    background-color:rgb(187, 177, 177);
+    left: 360px;
+    top: 385px;
+    transform:rotate(-135deg) ;
+}
+.hand_right {
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    border-radius: 100%;
+    background-color:rgb(187, 177, 177);
+    left: 610px;
+    top: 380px;
+    transform: rotate(135deg);
 }
